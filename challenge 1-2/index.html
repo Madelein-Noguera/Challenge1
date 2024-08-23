@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge-uno</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+  
+
+    
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Logo.png" alt="logo alura">
+        
+    </header>
+    <main>  
+        <section class="contenido">
+           
+            <textArea class="text-area" cols="30" rows="10" placeholder="Ingrese texto aqui"></textArea>
+        
+            <div class="alerta"> 
+                <h2 class="texto__alerta"><img src="
+                ./assets/bi_exclamation-circle-fill.png"> Solo letras minúsculas y sin acentos</h2>
+            </div> 
+            <div class="botones">   
+                <button  class="boton__uno" onclick="btEncriptar()">Encriptar</button>
+                <button  class="boton__dos" onclick="btDesencriptar()">Desencriptar</button>
+            </div>
+        </section> 
+        
+        <section class="caja__lateral"> 
+             <div class="caja__contenedor"> 
+                <img class="imagen" src="./assets/Muneco.png" alt="texto no encontrado">
+                <p class="titulo__destaque" > <strong>Ningún mensaje fue encontrado</strong></p>
+                <p class="titulo__sencillo" >Ingresa el texto que desees encriptar o desencriptar.</p>  
+            </div> 
+          
+           <textArea class="resultado"  cols="20" rows="10" input id="resultado" type="text"></textArea>
+            <div>
+                <button type="submit" class="copy" id="copy">Copiar</button> 
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 | Madelein Noguera</p>
+        <a  href="https://github.com/Madelein-Noguera" ><img src="./assets/github.png"></a>
+        <a  href="https://www.linkedin.com/in/madelein-noguera-34687761/">
+                <img src="./assets/linkedin.png" ></a>
+   
+    <script src="./JS.js"></script>
+    
+    </footer>
+
+    
+</body>
+</html>
